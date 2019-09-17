@@ -50,6 +50,7 @@ public abstract class AutoReloadingConfiguration {
 
     /**
      * Initialize the configuration and set up monitoring
+     * @throws IOException
      */
     public void init() throws IOException {
         if (isEmpty(configPath)) {
